@@ -1,4 +1,4 @@
-@if(session('languagepack_module_activated') == 'activated')
+{{-- @if(session('languagepack_module_activated') == 'activated')
 @php
     $moduleLink = '<a href="'.route('superadmin.superadmin-settings.index').'?tab=language'.'" class="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">'.__('modules.settings.languageSettings').'</a>';
 @endphp
@@ -8,4 +8,4 @@
         <span class="ml-2">@lang('languagepack::messages.moduleActivatedNote', ['link' => $moduleLink])</span>
     </div>
 </div>
-@endif
+@endif --}}
