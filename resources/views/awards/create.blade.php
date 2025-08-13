@@ -7,3 +7,6 @@
 </div>
 
 @endsection
+
+
+{{-- comment on this section  --}}
